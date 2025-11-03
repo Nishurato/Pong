@@ -2,19 +2,18 @@
     "configurations": [
         {
             "name": "Win32",
-            "includePath": [
-                "C:\\msys64\\ucrt64\\include",
-                "C:\\msys64\\ucrt64\\include\\c++"
-            ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "windows-gcc-x64",
             "cStandard": "c17",
-            "cppStandard": "c++20",
-            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe"
+            "cppStandard": "gnu++17",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\msys64\\ucrt64\\include",
+                "C:\\msys64\\mingw64\\include"
+            ]
         }
     ],
     "version": 4
