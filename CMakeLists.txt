@@ -1,6 +1,4 @@
-cmake_minimum_required(VERSION 4.0.0)
-set(CMAKE_CXX_COMPILER "C:/msys64/ucrt64/bin/g++.exe")
-set(CMAKE_C_COMPILER "C:/msys64/ucrt64/bin/gcc.exe")
+cmake_minimum_required(VERSION 3.28)
 project(Pong VERSION 0.1.0 LANGUAGES C CXX)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

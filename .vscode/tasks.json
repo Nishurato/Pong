@@ -32,7 +32,10 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-lsfml-graphics",
+                "-lsfml-system",
+                "-lsfml-window"
             ],
             "options": {
                 "cwd": "${fileDirname}"
